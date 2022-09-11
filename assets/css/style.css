@@ -180,9 +180,8 @@ li {
 
 .priority {
   width:  30%;
-  height: 400px;
-  border: 1px solid #000;
-  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
 }
 
 .priority:nth-child(2) {
@@ -220,7 +219,7 @@ h3 {
 .task {
   padding: 10px 2%;
   border-radius: 10px;
-  margin-right: 2%;
+  margin:0 2% 10px 0;
   background-color: #000;
   color: #fff;
   font-size: 21px;
@@ -229,6 +228,19 @@ h3 {
   cursor: pointer;
 }
 
+.drop-area {
+  height: 400px;
+  border: 1px solid #000;
+  border-radius: 0 0 10px 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  display: none;
+}
 /*=================================
   main styling ends here
 =================================*/
