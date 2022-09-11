@@ -138,6 +138,7 @@ li {
   text-transform: uppercase;
   justify-content: center;
   align-items: center;
+  cursor: pointer;
 }
 
 .start {
@@ -225,6 +226,7 @@ h3 {
   font-size: 21px;
   font-weight: 400;
   text-transform: uppercase;
+  cursor: pointer;
 }
 
 /*=================================
